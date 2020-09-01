@@ -102,7 +102,8 @@ input, select, textarea {
 		/*background-image: url(Emily.jpg);*/
 		/*background-size: 100% 100% ;*/
 		/*background: #ffffff;*/
-		background: #FFFAFA;
+		/*background: #FFFAFA;*/
+		background: #FFFFE0; /* New Yellow */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -119,7 +120,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		/* color: #585858;*/
+		color: #000040; /* New Dark Blue */
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -148,13 +150,15 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		/* color: #585858; */
+		color: #000040; /* New Dark Blue */
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			/*color: #f2849e !important; */
+			color: #F6CD00 !important; /* Sun Gradient */
 		}
 
 	strong, b {
@@ -1859,8 +1863,10 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				/*color: #f2849e;
+				border-color: #f2849e;*/
+				color: #F6CD00;
+				border-color: #F6CD00;
 			}
 
 			.icon.style2:active {
@@ -2173,8 +2179,10 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			/* border-bottom-color: #f2849e;
+			box-shadow: inset 0 -1px 0 0 #f2849e; */
+			border-bottom-color: #F6CD00;  /* New Sun Gradient */
+			box-shadow: inset 0 -1px 0 0 #F6CD00;
 		}
 
 	select {
@@ -2278,8 +2286,10 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			/* border-color: #f2849e;
+			box-shadow: 0 0 0 1px #f2849e; */
+			border-color: #F6CD00;  /* New Sun Gradient */
+			box-shadow: 0 0 0 1px #F6CD00;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2497,8 +2507,10 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			/* color: #f2849e !important;
+			box-shadow: inset 0 0 0 2px #f2849e;*/
+			color: #F6CD00 !important; /* New Sun Gradient */
+			box-shadow: inset 0 0 0 2px #F6CD00;
 		}
 
 		input[type="submit"]:active,
@@ -2540,7 +2552,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f2849e;
+				/* background-color: #f2849e;*/
+				background-color: ##F6CD00; /* New Sun Gradient */
 			}
 
 			input[type="submit"].primary:active,
@@ -2548,7 +2561,8 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				/* background-color: #ee5f81; */
+				background-color: #FFA500; /* New Sun Gradient */
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3170,7 +3184,8 @@ input, select, textarea {
 	#footer {
 		padding: 5em 0 6em 0 ;
 		/*background-color: #f6f6f6;*/
-		background-color: #FFFAFA;
+		/* background-color: #FFFAFA; */
+		background-color: #FFFFE0; /* New Yellow */
 	}
 
 		#footer > .inner {
